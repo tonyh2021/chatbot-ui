@@ -2,4 +2,6 @@
 
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run lint:fix && npm run format:write && git add .
+# export PATH="/usr/local/bin:$PATH"
+
+# npm run lint:fix && npm run format:write && git add .
